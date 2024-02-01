@@ -1,0 +1,22 @@
+#button {
+        position: absolute;
+        left: 32%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        width: 30%;
+        color: rgb(243, 232, 232);
+        
+}
+
+#button1 {
+        position: absolute;
+        /*
+        top: 35%;
+        transform: translate(-50%, -50%); */
+        left: 10%;
+        font-size: 25px;
+        width: 30%;
+        color: rgb(243, 232, 232);
+        
+}
