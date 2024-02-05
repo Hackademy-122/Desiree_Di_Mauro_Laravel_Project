@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
@@ -42,4 +43,12 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    // la funzione articles dice che l oggetto è collegato a piu oggetti di classe article
+    public function articles(): HasMany{
+
+        // la funzione restituira dell oggetto user creato tutti gli articoli a esso collegati, in pratica quelli k ha inserito lui
+        return $this->hasMany(Article::class);
+    }
+
 }

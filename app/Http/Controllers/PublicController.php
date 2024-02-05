@@ -21,12 +21,9 @@ class PublicController extends Controller
     return view('service');
    }
 
-   public function iscriviti(){
-    return view('iscrizione');
-   }
 
-   public function profilo(Request $request){
-    dd($request);
-}
+//    public function profilo(Request $request){
+//     dd($request);
+// }
 
 }

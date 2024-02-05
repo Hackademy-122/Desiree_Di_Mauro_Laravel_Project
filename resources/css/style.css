@@ -1,22 +1,67 @@
+.card-img-custom {
+        object-fit: cover;
+        height: 250px;
+}
+
+
+
+.header{
+        height: 300px;
+        background-image: url(https://media.istockphoto.com/id/1453583308/it/foto/centro-di-dubai-al-crepuscolo.jpg?s=612x612&w=0&k=20&c=GGxdWiajCrWRFAmIKe89jVtj5aPip-9hqwUD2jOjj7U=);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+        /* -webkit-filter: blur(8px); */
+}
+
+.filtered{
+         backdrop-filter: blur(5px);
+         width: 100%;
+         height: 100%;
+         margin: 0;
+}
+
 #button {
-        position: absolute;
-        left: 32%;
-        top: 35%;
-        transform: translate(-50%, -50%);
+       position: absolute;
+        left: 27%;
         font-size: 25px;
-        width: 30%;
+        width: 20%;
         color: rgb(243, 232, 232);
         
 }
 
 #button1 {
         position: absolute;
-        /*
-        top: 35%;
-        transform: translate(-50%, -50%); */
-        left: 10%;
+        left: 23%;
         font-size: 25px;
-        width: 30%;
+        width: 20%;
         color: rgb(243, 232, 232);
         
+}
+
+#button2 {
+        position: absolute;
+        left: 23%;
+        font-size: 25px;
+        width: 20%;
+        color: rgb(243, 232, 232);
+}
+
+#button3 {
+        position: absolute;
+        left: 23%;
+        font-size: 25px;
+        width: 20%;
+        color: rgb(243, 232, 232);
+}
+
+#span {
+        font-weight: 680;
+        color: rgba(0, 0, 0, 0.566);
+        
+}
+
+#link {
+        color: rgba(0, 0, 0, 0.566);
 }
