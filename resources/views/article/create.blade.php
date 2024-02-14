@@ -9,7 +9,7 @@
                        {{ session('message') }}
                    </div>    
                @endif
-               <h1 class="title text-center display-1 text-white">Aggiungi un Articolo</h1>
+               <h1 class="title1 text-center display-1 text"><b>Aggiungi un Articolo</b></h1>
            </div>
        </div>
    </div>

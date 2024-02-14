@@ -1,6 +1,11 @@
 <x-layout>
 
-  <h1 class="text-center display-1">Il Mio Sito</h1>
+  <h1 class="text-center display-1">Benvenuti</h1>
+
+ 
+
+  <h3 class="text-center">Articoli</h3>
+
 
 
 <div class="container mt-5">

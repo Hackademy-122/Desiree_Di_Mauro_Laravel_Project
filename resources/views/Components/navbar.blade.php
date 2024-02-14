@@ -29,6 +29,8 @@
                         <li><a class="dropdown-item" href="{{ route('category_create') }}">Aggiungi Categoria</a></li>
                     </ul>
                 </li>
+                
+      
                 @auth
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,6 +54,13 @@
                 @endauth
         </div>
         </ul>
+        <div class="conteiner search"> 
+            <form action="" method="GET" class="d-flex">
+            <input name="searched" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline" type="submit"><i class="fa-solid fa-magnifying-glass" type="submit"></i></button>
+        </form>
+    </div>
+       
         <nav class="navbar sticky-bottom bg-body-tertiary">
             <div class="container-fluid">
 

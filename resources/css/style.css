@@ -1,4 +1,10 @@
+*{
+        font-family: "Montserrat", sans-serif;
+}
+
+
 .card-img-custom {
+
         object-fit: cover;
         height: 250px;
 }
@@ -20,6 +26,12 @@
          width: 100%;
          height: 100%;
          margin: 0;
+}
+
+.title1{
+        font-size: 100px;
+        color: rgb(44, 48, 48);
+        font-family: "Montserrat" , sans-serif;
 }
 
 #button {
@@ -64,4 +76,12 @@
 
 #link {
         color: rgba(0, 0, 0, 0.566);
+}
+
+.search{
+        justify-content: center;
+        margin-right: 0;
+        flex-basis: 530px;
+        max-width: 530px;
+        
 }
